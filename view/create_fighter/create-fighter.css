@@ -1,0 +1,77 @@
+body {
+  background-image: url('https://images.pexels.com/photos/1166644/pexels-photo-1166644.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.create-fighter-container {
+  width: 80%;
+  margin: 50px auto;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+  margin-left: auto;
+  width: 40%;
+  color: #262626;
+  font-size: 30px;
+  font-weight: 900;
+  text-align: center;
+  text-shadow: 1.5px 1px #0d0d0d;
+}
+
+a {
+  text-decoration: none;
+}
+
+.back-btn {
+  display: block;
+  margin: 3% auto;
+  background-color: #737373;
+  border: none;
+  font-size: 19px;
+  border-radius: 5px;
+  box-shadow: 1px 0 30px 7px #404040;
+  color: #fff;
+  width: 22%;
+  height: 30px;
+  outline: none;
+  cursor: pointer;
+}
+
+.create-fighter-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.create-fighter-header {
+  margin-top: 5px;
+}
+
+input[type="text"] {
+  margin-top: 6px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  outline: none;
+  border: 1px solid #595959;
+  height: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.save-fighter-btn {
+  display: block;
+  margin: 3% auto;
+  background-color: #737373;
+  border: none;
+  font-size: 19px;
+  border-radius: 5px;
+  box-shadow: 1px 0 30px 7px #404040;
+  color: #fff;
+  width: 34%;
+  height: 30px;
+  outline: none;
+  cursor: pointer;
+}

@@ -1,0 +1,23 @@
+.container {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 60px;
+  padding: 10px;
+  box-shadow: 0 1px 40px 0 #000;
+  cursor: pointer;
+}
+
+.fighter-container {
+  padding: 50px;
+}
+
+.info-fighter {
+  margin-top: 20px;
+  font-size: 23px;
+  font-weight: 700;
+}
